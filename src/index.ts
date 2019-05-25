@@ -22,3 +22,6 @@ blockChain6.addBlock({amount: 10});
 blockChain6.addBlock({amount: 20});
 blockChain6.addBlock({amount: 30});
 blockChain6.addBlock({amount: 40});
+
+console.log("=====================================================");
+console.log(`Block chain is valid? ${blockChain3.isValid()}`);
